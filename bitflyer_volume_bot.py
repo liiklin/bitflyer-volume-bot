@@ -11,7 +11,7 @@ import json
 
 # bitFlyer API setting
 public_api = pybitflyer.API()
-bitFlyer_keys = json.load(open('bitFlyer_keys.json', 'r'))
+bitFlyer_keys = json.load(open('bitflyer_keys.json', 'r'))
 api = pybitflyer.API(api_key=bitFlyer_keys['key'], api_secret=bitFlyer_keys['secret'])
 
 # dataframe for executions
